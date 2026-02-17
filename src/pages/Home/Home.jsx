@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from '../../components/Navbar/Navbar'
 import Template from '../../components/Brand_template/template'
 import { assets } from '../../assets/assets'
-import Footer from '../../components/footer/footer'
 import './index.css'
 import { AppContext, useAppContext } from '../../Context/AppContext'
 
