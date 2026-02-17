@@ -6,7 +6,7 @@ import Model1 from './Model1.png'
 import Model2 from './Model2.png'
 import Brand from './brand.jpg'
 import Footer from './footer.png'
-import White_back from './White_back.png'
+import Whiteback from './White_back.png'
 import White_front from './white-shirt.png'
 import About_1 from './About_1.jpeg'
 import About_2 from './About_2.jpeg'
@@ -45,7 +45,7 @@ export const assets ={
          Model1,
          Model2,
          Brand,
-         White_back,
+         Whiteback,
          White_front,
          About_1,
          About_2,

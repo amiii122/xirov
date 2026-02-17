@@ -26,7 +26,7 @@ useEffect(()=>{
           <div className=' w-[50%] h-[80vh] flex flex-col justify-between '>
               <div className='flex  justify-between gap-5'>
                 {/* Back */}
-                     <Template h={55} w={25} src={assets.White_back} text="Back" font={28} sub={12}/>
+                     <Template h={55} w={25} src={assets.Whiteback} text="Back" font={28} sub={12}/>
                 {/* Front */}
                       <Template h={55} w={25} src={assets.White_front} text="Front" font={28} sub={12}/>
               </div>
