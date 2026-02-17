@@ -1,0 +1,31 @@
+.Employ,.image{
+    transition: height ease-in-out .5s;
+}
+
+.Employ:hover{
+  height: 43vh;
+}
+.Employ:hover .image{
+  height: 30vh;
+
+}
+.Detils{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+
+
+}
+ .Social_media .Accounts {
+     width: 23px;
+     height:23px;
+     background-image: url("../../assets/facebook.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size:cover;
+     object-fit: cover;
+     border-radius: 2px;
+     cursor: pointer;
+     /* box-shadow: 2px 1px rgba(161, 97, 97, 0.623); */
+ }

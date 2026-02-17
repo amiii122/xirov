@@ -1,0 +1,10 @@
+
+.Product_card:hover{
+ scale: .98;
+ box-shadow: none;
+} 
+.Product_card {
+  transition: all ease-in-out .2s ;
+  
+}
+ 

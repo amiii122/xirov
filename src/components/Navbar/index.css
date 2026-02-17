@@ -1,0 +1,45 @@
+.middle ul li:hover::before,
+.middle ul li:hover:focus{
+     transform-origin: bottom left;
+    transform: scaleX(1);
+
+    
+}
+.middle ul li:hover{
+    color: rgb(223, 219, 218);
+}
+
+.middle Ul li{
+    position: relative;
+    font-size: 17px;
+   transition-property: color;
+   transition: ease-in-out .1s;
+   font-weight: 100;
+   letter-spacing: .7px;
+   animation: 1s ease-in-out .2s spark;
+  
+}
+
+
+.middle ul li::before{
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(236, 227, 227);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.2s ease-in-out;
+}
+@keyframes spark {
+    from{
+        opacity: 0;
+
+    }
+    to{
+         opacity: 1;
+    }
+}
+

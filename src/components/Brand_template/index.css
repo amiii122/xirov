@@ -1,0 +1,46 @@
+.Image_sec{
+    transition: width ease-in-out .3s;
+}
+.template{
+    transition: padding ease-in-out .2s;
+}
+.Image_sec img {
+    transition: all .2s ease-in-out ;
+    scale: 1;
+}
+.sub_content{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.Image_sec p{
+   font-family: "Abril Fatface", serif;
+  font-weight: 100;
+  font-style: normal;
+    transform: scale(1.5);
+    opacity: 0;
+    transition: all .25s ease-in-out .1s;
+}
+.Image_sec:hover img{
+    scale: 1.03;
+}
+/* .template:has(.Image_sec:hover) {
+   padding: 0 22px;
+} */
+.Image_sec:hover p{
+    transform: scale(1);
+    opacity: 1;
+}
+.Image_sec::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient( to top,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0) 50%
+    );
+}

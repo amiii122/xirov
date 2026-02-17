@@ -1,0 +1,26 @@
+.Dots > div{
+width: 8px ;
+height: 8px;
+background-color: rgb(216, 150, 6);
+border-radius: 50%;
+animation: 1s infinite  Dots;
+}
+.Dots div:nth-child(1){
+    animation-delay: -0.32s;
+}
+.Dots div:nth-child(2){
+    animation-delay: -0.16s;
+}
+
+@keyframes Dots{
+    0%,100%{
+        /* opacity: 0; */
+         transform: scale(1);
+         /* transform: translateY(0); */
+    }
+    40%{
+        /* opacity: 1; */
+        transform: scale(1.4);
+        /* transform: translateY(4px); */
+    }
+}

@@ -1,0 +1,48 @@
+.page_1,.sec-1,.Feactures .Feactures_Content{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  letter-spacing: .2px;
+}
+.page_1{
+  background-image: url("../../assets/About_1.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+
+  
+}
+  .heading{
+    font-size: 45px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+   z-index: 9;
+  }
+ .page_1 p{
+
+  position: relative;
+    max-width: 600px;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 10;
+    /* background-image: url(".../assets/About_1.jpeg"); */
+ } 
+ .sec-1  .left h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 700;
+    
+ }
+ .sec-1  .left p{
+   font-size: 11.5px;
+ }
+ 

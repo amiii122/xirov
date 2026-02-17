@@ -1,0 +1,19 @@
+.Price_sec h1{
+font-weight:900;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.Price_sec p{
+    font-size: 22px;
+    font-weight: 600;
+}
+.seb{
+    font-size: 12px;
+    text-decoration:line-through;
+    padding-left: 4px;
+}
+.button_sec button{
+border:transparent;
+ font-size: 12px;
+ font-weight: 500;
+ color: white;
+}

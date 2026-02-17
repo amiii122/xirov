@@ -1,0 +1,25 @@
+/* .Hero_img{
+    background-image: url('.../');
+} */
+ .search{
+     transition: display ease-in-out .3s;
+ }
+ .search input{
+  outline: none;
+ }
+ .search .icon div{
+
+    width: 25px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+ }
+ .search .icon div:nth-child(1){
+    transform:translate3d(0,1px,0) rotate(45deg);
+    /* transform: translateY(6); */
+ }
+ .search .icon div:nth-child(2){
+    transform:translate3d(0,-1px,0) rotate(-45deg);
+ }
+.search .icon:hover{
+   cursor: pointer;
+}
